@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+    /* justify-content: center;
+    align-items: center; */
+    background-color: rgb(255, 255, 163);
+    max-width: 650px;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    margin-left: 20px;
+}
+
+button {
+    margin-left: 5px;
+    height: 40px;
+    width: 40px;
+    margin-bottom: 30px;
+    border: solid 2px white;
+    border-radius: 5px;
+    background: none;
+    color: white;
+}
+
+.home,
+.guest {
+    justify-content: center;
+    align-items: center;
+    margin-top: -65px;
+}
+
+.card {
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(14, 14, 61);
+    height: 550px;
+    width: 650px;
+    border-radius: 1em;
+    border: 0.5em solid white;
+}
+
+#home-scorecard,
+#guest-scorecard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    background-color: black;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: red;
+}
+
+.score {
+    color: red;
+}
+
+.result {
+    display: inline;
+    margin-top: -14em;
+    margin-left: 92px;
+}
+
+.result-btn {
+    width: 70px;
+}
+
+#result-txt {
+    display: inline-flex;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+} 
+
+.new {
+    margin-top: -9em;
+    display: flex;
+}
+
+.new-game {
+    display: flex;
+    width: 166px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+

@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="card">
+            <div class="home">
+                <h1>HOME</h1>
+                <div id="home-scorecard">
+                </div>
+                <button class="plusone" onclick="homeone()">+1</button>
+                <button class="plusone" onclick="hometwo()">+2</button>
+                <button class="plusone" onclick="homethree()">+3</button>
+            </div>
+            <div class="guest">
+                <h1>GUEST</h1>
+                <div id="guest-scorecard"></div>
+                <button class="plusone" onclick="guestone()">+1</button>
+                <button class="plusone" onclick="guesttwo()">+2</button>
+                <button class="plusone" onclick="guestthree()">+3</button>
+            </div>
+        </div>
+        <div class="result">
+            <button class="result-btn" onclick="results()">Result</button>
+            <p id="result-txt"></p>
+        </div>
+        <div class="new">
+            <button class="new-game" onclick="newgame()">New Game</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
